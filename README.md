@@ -26,6 +26,20 @@ The current prototype uses **Google Gemini** for multimodal understanding and st
 - 📋 Create maintenance tasks
 - 🗂️ View inspection and task history
 
+## Visual Demo
+
+The screenshots below show the current working prototype, including the home screen, observation input, inspection results, maintenance tasks, and history.
+
+<p align="center">
+  <img src="docs/screenshots/01-home.png" width="320" alt="DocuLens home screen">
+</p>
+
+<p align="center">
+  <em>DocuLens home screen — entry point for field observation analysis.</em>
+</p>
+
+See the complete prototype walkthrough in [`docs/screenshots/`](docs/screenshots/).
+
 ## Tech Stack
 
 - **Frontend:** Flutter / Dart
@@ -40,7 +54,11 @@ The current prototype uses **Google Gemini** for multimodal understanding and st
 DocuLens/
 ├── frontend/          # Flutter mobile application
 ├── backend/           # FastAPI backend and AI/validation services
-├── docs/              # Architecture, product specification, and schema
+├── docs/
+│   ├── screenshots/   # Prototype screenshots and workflow reference
+│   ├── ARCHITECTURE.md
+│   ├── PRODUCT_SPEC.md
+│   └── SCHEMA.md
 └── README.md
 ```
 
@@ -93,6 +111,7 @@ Detailed technical information is intentionally kept in the `docs/` folder:
 - `docs/ARCHITECTURE.md` — system architecture and API design
 - `docs/PRODUCT_SPEC.md` — product scope and requirements
 - `docs/SCHEMA.md` — canonical data schema and validation rules
+- `docs/screenshots/` — complete visual reference of the current prototype
 
 ## Security
 
